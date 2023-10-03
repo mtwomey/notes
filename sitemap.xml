@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.beakstar.com/blog/blog/</loc>
+    <loc>https://www.beakstar.com/notes/blog/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/tags/github/</loc>
+    <loc>https://www.beakstar.com/notes/tags/github/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/tags/github-pages/</loc>
+    <loc>https://www.beakstar.com/notes/tags/github-pages/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/</loc>
+    <loc>https://www.beakstar.com/notes/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/tags/</loc>
+    <loc>https://www.beakstar.com/notes/tags/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/blog/where-are-my-github-pages/</loc>
+    <loc>https://www.beakstar.com/notes/blog/where-are-my-github-pages/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/tags/emacs/</loc>
+    <loc>https://www.beakstar.com/notes/tags/emacs/</loc>
     <lastmod>2023-10-01T22:42:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/blog/tailor-your-tools/</loc>
+    <loc>https://www.beakstar.com/notes/blog/tailor-your-tools/</loc>
     <lastmod>2023-10-01T22:42:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/tags/tooling/</loc>
+    <loc>https://www.beakstar.com/notes/tags/tooling/</loc>
     <lastmod>2023-10-01T22:42:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/tags/vim/</loc>
+    <loc>https://www.beakstar.com/notes/tags/vim/</loc>
     <lastmod>2023-10-01T22:42:00-05:00</lastmod>
   </url><url>
-    <loc>https://www.beakstar.com/blog/categories/</loc>
+    <loc>https://www.beakstar.com/notes/categories/</loc>
   </url>
 </urlset>
