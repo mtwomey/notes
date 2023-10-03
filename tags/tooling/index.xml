@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tooling on Staying up later than I should</title>
+    <link>https://www.beakstar.com/blog/tags/tooling/</link>
+    <description>Recent content in tooling on Staying up later than I should</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Oct 2023 22:42:00 -0500</lastBuildDate><atom:link href="https://www.beakstar.com/blog/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go head, tailor your tools</title>
+      <link>https://www.beakstar.com/blog/blog/tailor-your-tools/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:00 -0500</pubDate>
+      
+      <guid>https://www.beakstar.com/blog/blog/tailor-your-tools/</guid>
+      <description>I recently heard someone else share their perspective that one should not customize their tools. I also fell into this camp, until pretty recently.
+The lesson of vi I made what I believed was a wise choice back in the 90s when I was first getting comfortable in unix (AIX at the time). I decided to eschew other options and learn and stick with vi, at least for editing system configuration files.</description>
+    </item>
+    
+  </channel>
+</rss>
