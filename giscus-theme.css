@@ -46,16 +46,20 @@ main {
   --color-btn-active-border: #636e7b;
   --color-btn-selected-bg: #2d333b;
   --color-btn-primary-text: #fff;
-  --color-btn-primary-bg: #347d39;
+  /* --color-btn-primary-bg: #347d39; */
+  --color-btn-primary-bg: rgb(113 113 122);
   --color-btn-primary-border: rgb(205 217 229 / 10%);
   --color-btn-primary-shadow: 0 0 transparent;
   --color-btn-primary-inset-shadow: 0 0 transparent;
-  --color-btn-primary-hover-bg: #46954a;
+  /* --color-btn-primary-hover-bg: #46954a; */
+  --color-btn-primary-hover-bg: rgb(113 113 122);
   --color-btn-primary-hover-border: rgb(205 217 229 / 10%);
-  --color-btn-primary-selected-bg: #347d39;
+  /* --color-btn-primary-selected-bg: #347d39; */
+  --color-btn-primary-selected-bg: rgb(63 63 70);
   --color-btn-primary-selected-shadow: 0 0 transparent;
   --color-btn-primary-disabled-text: rgb(205 217 229 / 50%);
-  --color-btn-primary-disabled-bg: rgb(52 125 57 / 60%);
+  /* --color-btn-primary-disabled-bg: rgb(52 125 57 / 60%); */
+  --color-btn-primary-disabled-bg: rgb(63 63 70);
   --color-btn-primary-disabled-border: rgb(205 217 229 / 10%);
   --color-action-list-item-default-hover-bg: rgb(144 157 171 / 12%);
   --color-segmented-control-bg: rgb(99 110 123 / 10%);
@@ -64,16 +68,21 @@ main {
   --color-fg-default: #adbac7;
   --color-fg-muted: #768390;
   --color-fg-subtle: #545d68;
-  --color-canvas-default: rgb(25 39 52);
+  /* --color-canvas-default: rgb(25 39 52); */
+  --color-canvas-default: rgb(24 24 27);
   --color-canvas-overlay: #161b22;
-  --color-canvas-inset: rgb(21 32 43 / 100%);
-  --color-canvas-subtle: rgb(37 51 65);
+  /* --color-canvas-inset: rgb(21 32 43 / 100%); */
+  --color-canvas-inset: rgb(31 31 34);
+  /* --color-canvas-subtle: rgb(37 51 65); */
+  --color-canvas-subtle: rgb(31 31 34);
   --color-border-default: #444c56;
   --color-border-muted: #373e47;
   --color-neutral-muted: rgb(99 110 123 / 40%);
-  --color-accent-fg: #539bf5;
+  /* --color-accent-fg: #539bf5; */
+  --color-accent-fg: rgb(82 82 91);
   --color-accent-emphasis: #316dca;
-  --color-accent-muted: rgb(65 132 228 / 40%);
+  /* --color-accent-muted: rgb(65 132 228 / 40%); */
+  --color-accent-muted: #444c56;
   --color-accent-subtle: rgb(56 139 253 / 10%);
   --color-success-fg: #57ab5a;
   --color-attention-fg: #c69026;
