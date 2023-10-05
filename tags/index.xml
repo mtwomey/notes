@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Staying up later than I should</title>
-    <link>https://www.beakstar.com/notes/tags/</link>
+    <link>https://notes.beakstar.com/tags/</link>
     <description>Recent content in Tags on Staying up later than I should</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Oct 2023 10:57:00 -0500</lastBuildDate><atom:link href="https://www.beakstar.com/notes/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Oct 2023 10:57:00 -0500</lastBuildDate><atom:link href="https://notes.beakstar.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>github</title>
-      <link>https://www.beakstar.com/notes/tags/github/</link>
+      <link>https://notes.beakstar.com/tags/github/</link>
       <pubDate>Mon, 02 Oct 2023 10:57:00 -0500</pubDate>
       
-      <guid>https://www.beakstar.com/notes/tags/github/</guid>
+      <guid>https://notes.beakstar.com/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github pages</title>
-      <link>https://www.beakstar.com/notes/tags/github-pages/</link>
+      <link>https://notes.beakstar.com/tags/github-pages/</link>
       <pubDate>Mon, 02 Oct 2023 10:57:00 -0500</pubDate>
       
-      <guid>https://www.beakstar.com/notes/tags/github-pages/</guid>
+      <guid>https://notes.beakstar.com/tags/github-pages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emacs</title>
-      <link>https://www.beakstar.com/notes/tags/emacs/</link>
+      <link>https://notes.beakstar.com/tags/emacs/</link>
       <pubDate>Sun, 01 Oct 2023 22:42:00 -0500</pubDate>
       
-      <guid>https://www.beakstar.com/notes/tags/emacs/</guid>
+      <guid>https://notes.beakstar.com/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tooling</title>
-      <link>https://www.beakstar.com/notes/tags/tooling/</link>
+      <link>https://notes.beakstar.com/tags/tooling/</link>
       <pubDate>Sun, 01 Oct 2023 22:42:00 -0500</pubDate>
       
-      <guid>https://www.beakstar.com/notes/tags/tooling/</guid>
+      <guid>https://notes.beakstar.com/tags/tooling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vim</title>
-      <link>https://www.beakstar.com/notes/tags/vim/</link>
+      <link>https://notes.beakstar.com/tags/vim/</link>
       <pubDate>Sun, 01 Oct 2023 22:42:00 -0500</pubDate>
       
-      <guid>https://www.beakstar.com/notes/tags/vim/</guid>
+      <guid>https://notes.beakstar.com/tags/vim/</guid>
       <description></description>
     </item>
     
