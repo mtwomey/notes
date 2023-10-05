@@ -100,41 +100,54 @@ main {
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
 }
 
-main .pagination-loader-container {
-  background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg");
+.giscus, .giscus-frame {
+  width: 100%;
+  min-height: 150px;
 }
 
-/*! Custom CSS */
-
-.gsc-reactions-count {
-  display: none;
+.giscus-frame {
+  border: none;
+  color-scheme: light dark;
+}
+.giscus-frame--loading {
+  opacity: 0;
 }
 
-.gsc-timeline {
-  flex-direction: column-reverse;
-}
+/* main .pagination-loader-container { */
+/*   background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg"); */
+/* } */
 
-.gsc-header {
-  padding-bottom: 1rem;
-}
+/* /\*! Custom CSS *\/ */
 
-.gsc-comments > .gsc-header {
-  order: 1;
-}
+/* .gsc-reactions-count { */
+/*   display: none; */
+/* } */
 
-.gsc-comments > .gsc-comment-box {
-  order: 2;
-  margin-bottom: 1rem;
-}
+/* .gsc-timeline { */
+/*   flex-direction: column-reverse; */
+/* } */
 
-.gsc-comments > .gsc-timeline {
-  order: 3;
-}
+/* .gsc-header { */
+/*   padding-bottom: 1rem; */
+/* } */
 
-.gsc-homepage-bg {
-  background-color: #15202b;
-}
+/* .gsc-comments > .gsc-header { */
+/*   order: 1; */
+/* } */
 
-main .gsc-loading-image {
-  background-image: url("https://github.githubassets.com/images/mona-loading-dimmed.gif");
-}
+/* .gsc-comments > .gsc-comment-box { */
+/*   order: 2; */
+/*   margin-bottom: 1rem; */
+/* } */
+
+/* .gsc-comments > .gsc-timeline { */
+/*   order: 3; */
+/* } */
+
+/* .gsc-homepage-bg { */
+/*   background-color: #15202b; */
+/* } */
+
+/* main .gsc-loading-image { */
+/*   background-image: url("https://github.githubassets.com/images/mona-loading-dimmed.gif"); */
+/* } */
