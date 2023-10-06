@@ -13,9 +13,9 @@
       <pubDate>Mon, 02 Oct 2023 10:57:00 -0500</pubDate>
       
       <guid>https://notes.beakstar.com/posts/where-are-my-github-pages/</guid>
-      <description>This site runs on GitHub Pages, and although it&amp;rsquo;s a great feature, it was a little confusing to figure out where things needed to be at first.
-There are a few different kinds of GitHub Pages:
-GitHub Pages for a GitHub user GitHub Pages for a GitHub organization GitHub Pages for a specific repo GitHub Pages for a GitHub User or Organization Consider this the main &amp;ldquo;site&amp;rdquo; for an account. The GitHub Pages for the account (or organization) is an overall &amp;ldquo;general&amp;rdquo; site that is not specific to a given repository.</description>
+      <description>This site runs on GitHub Pages, and while it&amp;rsquo;s a great feature, it was initially a bit confusing to understand where everything should be.
+There are three main types of GitHub Pages:
+GitHub Pages for a GitHub user GitHub Pages for a GitHub organization GitHub Pages for a specific repo GitHub Pages for a GitHub User or Organization Consider this the primary &amp;ldquo;site&amp;rdquo; for an account. GitHub Pages for an account (or organization) is a general site not tied to a specific repository.</description>
     </item>
     
     <item>
