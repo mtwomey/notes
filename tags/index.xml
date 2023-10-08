@@ -17,20 +17,38 @@
     </item>
     
     <item>
-      <title>tooling</title>
-      <link>https://notes.beakstar.com/tags/tooling/</link>
+      <title>giscus</title>
+      <link>https://notes.beakstar.com/tags/giscus/</link>
       <pubDate>Fri, 06 Oct 2023 23:55:00 -0500</pubDate>
       
-      <guid>https://notes.beakstar.com/tags/tooling/</guid>
+      <guid>https://notes.beakstar.com/tags/giscus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>vim</title>
-      <link>https://notes.beakstar.com/tags/vim/</link>
+      <title>hugo</title>
+      <link>https://notes.beakstar.com/tags/hugo/</link>
       <pubDate>Fri, 06 Oct 2023 23:55:00 -0500</pubDate>
       
-      <guid>https://notes.beakstar.com/tags/vim/</guid>
+      <guid>https://notes.beakstar.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org-mode</title>
+      <link>https://notes.beakstar.com/tags/org-mode/</link>
+      <pubDate>Fri, 06 Oct 2023 23:55:00 -0500</pubDate>
+      
+      <guid>https://notes.beakstar.com/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ox-hugo</title>
+      <link>https://notes.beakstar.com/tags/ox-hugo/</link>
+      <pubDate>Fri, 06 Oct 2023 23:55:00 -0500</pubDate>
+      
+      <guid>https://notes.beakstar.com/tags/ox-hugo/</guid>
       <description></description>
     </item>
     
@@ -49,6 +67,24 @@
       <pubDate>Mon, 02 Oct 2023 10:57:00 -0500</pubDate>
       
       <guid>https://notes.beakstar.com/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tooling</title>
+      <link>https://notes.beakstar.com/tags/tooling/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:00 -0500</pubDate>
+      
+      <guid>https://notes.beakstar.com/tags/tooling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://notes.beakstar.com/tags/vim/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:00 -0500</pubDate>
+      
+      <guid>https://notes.beakstar.com/tags/vim/</guid>
       <description></description>
     </item>
     

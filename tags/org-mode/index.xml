@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>org-mode on Staying up later than I should</title>
+    <link>https://notes.beakstar.com/tags/org-mode/</link>
+    <description>Recent content in org-mode on Staying up later than I should</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Oct 2023 23:55:00 -0500</lastBuildDate><atom:link href="https://notes.beakstar.com/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How this site was built</title>
+      <link>https://notes.beakstar.com/posts/how-this-site-was-built/</link>
+      <pubDate>Fri, 06 Oct 2023 23:55:00 -0500</pubDate>
+      
+      <guid>https://notes.beakstar.com/posts/how-this-site-was-built/</guid>
+      <description>Modern tools can make building a website or blog quite easy and painless, especially if you&amp;rsquo;re willing to accept the out-of-the-box templates and setup. However, when you start wanting things &amp;ldquo;just so,&amp;rdquo; the process becomes a little more complicated.
+Technologies in Play For the live site, we have:
+Github Pages Giscus That&amp;rsquo;s it. It&amp;rsquo;s a static site published to a Github repository with Github Pages enabled. The post comments are powered by Giscus , an application that integrates with Github Discussions on the repository.</description>
+    </item>
+    
+  </channel>
+</rss>
