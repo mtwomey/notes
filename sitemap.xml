@@ -2,34 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://notes.beakstar.com/tags/emacs/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/posts/how-this-site-was-built/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/posts/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/tags/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/tags/tooling/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/tags/vim/</loc>
+    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
+  </url><url>
     <loc>https://notes.beakstar.com/tags/github/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
     <loc>https://notes.beakstar.com/tags/github-pages/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://notes.beakstar.com/posts/</loc>
-    <lastmod>2023-10-02T10:57:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/</loc>
-    <lastmod>2023-10-02T10:57:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/tags/</loc>
-    <lastmod>2023-10-02T10:57:00-05:00</lastmod>
-  </url><url>
     <loc>https://notes.beakstar.com/posts/where-are-my-github-pages/</loc>
     <lastmod>2023-10-02T10:57:00-05:00</lastmod>
   </url><url>
-    <loc>https://notes.beakstar.com/tags/emacs/</loc>
-    <lastmod>2023-10-01T22:42:00-05:00</lastmod>
-  </url><url>
     <loc>https://notes.beakstar.com/posts/tailor-your-tools/</loc>
-    <lastmod>2023-10-01T22:42:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/tags/tooling/</loc>
-    <lastmod>2023-10-01T22:42:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/tags/vim/</loc>
     <lastmod>2023-10-01T22:42:00-05:00</lastmod>
   </url><url>
     <loc>https://notes.beakstar.com/categories/</loc>
