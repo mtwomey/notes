@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://notes.beakstar.com/tags/babashka/</loc>
+    <lastmod>2023-10-08T11:06:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/posts/babashka-is-a-great-clojure-entry-point/</loc>
+    <lastmod>2023-10-08T11:06:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/tags/clojure/</loc>
+    <lastmod>2023-10-08T11:06:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/posts/</loc>
+    <lastmod>2023-10-08T11:06:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/</loc>
+    <lastmod>2023-10-08T11:06:00-05:00</lastmod>
+  </url><url>
+    <loc>https://notes.beakstar.com/tags/</loc>
+    <lastmod>2023-10-08T11:06:00-05:00</lastmod>
+  </url><url>
     <loc>https://notes.beakstar.com/tags/emacs/</loc>
     <lastmod>2023-10-06T23:55:00-05:00</lastmod>
   </url><url>
@@ -18,15 +36,6 @@
     <lastmod>2023-10-06T23:55:00-05:00</lastmod>
   </url><url>
     <loc>https://notes.beakstar.com/tags/ox-hugo/</loc>
-    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/posts/</loc>
-    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/</loc>
-    <lastmod>2023-10-06T23:55:00-05:00</lastmod>
-  </url><url>
-    <loc>https://notes.beakstar.com/tags/</loc>
     <lastmod>2023-10-06T23:55:00-05:00</lastmod>
   </url><url>
     <loc>https://notes.beakstar.com/tags/github/</loc>

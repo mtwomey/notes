@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="/favicon.svg">
+
+  <title>Babashka is a great Clojure entry point</title>
+  <meta name="description" content="There are a lot of great ways to get started with Clojure. The community around Clojure and the love they feel for the language has driven numerous resources, books, websites, and tutorials aimed at helping newcomers get started. One easy way to take Clojure for a test-drive is Babashka .
+Approaching Clojure for the first time Everyone learns differently. My first experience with Clojure was following a tutorial that used Leiningen to produce a &ldquo;hello world!" />
+  <meta name="author" content="[Matthew Twomey]" />
+  
+  <meta name="baseurl" content="https://notes.beakstar.com/" />
+  <meta name="generator" content="Hugo 0.119.0"><link
+    rel="stylesheet"
+    href="https://notes.beakstar.com/css/styles.min.2bec2a43dfe7e75a0145ffa7385d8e170abdcd0251d744aa1c069687faf262fc.css"
+    integrity="sha256-K+wqQ9/n51oBRf+nOF2OFwq9zQJR10SqHAaWh/ryYvw="
+  />
+  
+  
+
+  <meta property="og:title" content="Babashka is a great Clojure entry point" />
+<meta property="og:description" content="There are a lot of great ways to get started with Clojure. The community around Clojure and the love they feel for the language has driven numerous resources, books, websites, and tutorials aimed at helping newcomers get started. One easy way to take Clojure for a test-drive is Babashka .
+Approaching Clojure for the first time Everyone learns differently. My first experience with Clojure was following a tutorial that used Leiningen to produce a &ldquo;hello world!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://notes.beakstar.com/posts/babashka-is-a-great-clojure-entry-point/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-08T11:06:00-05:00" />
+<meta property="article:modified_time" content="2023-10-08T11:06:00-05:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Babashka is a great Clojure entry point"/>
+<meta name="twitter:description" content="There are a lot of great ways to get started with Clojure. The community around Clojure and the love they feel for the language has driven numerous resources, books, websites, and tutorials aimed at helping newcomers get started. One easy way to take Clojure for a test-drive is Babashka .
+Approaching Clojure for the first time Everyone learns differently. My first experience with Clojure was following a tutorial that used Leiningen to produce a &ldquo;hello world!"/>
+
+  <meta itemprop="name" content="Babashka is a great Clojure entry point">
+<meta itemprop="description" content="There are a lot of great ways to get started with Clojure. The community around Clojure and the love they feel for the language has driven numerous resources, books, websites, and tutorials aimed at helping newcomers get started. One easy way to take Clojure for a test-drive is Babashka .
+Approaching Clojure for the first time Everyone learns differently. My first experience with Clojure was following a tutorial that used Leiningen to produce a &ldquo;hello world!"><meta itemprop="datePublished" content="2023-10-08T11:06:00-05:00" />
+<meta itemprop="dateModified" content="2023-10-08T11:06:00-05:00" />
+<meta itemprop="wordCount" content="514">
+<meta itemprop="keywords" content="clojure,babashka," />
+
+  
+</head>
+<body class="dark:bg-zinc-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://notes.beakstar.com/" class="capitalize font-extrabold text-2xl">
+    
+    <img src="https://notes.beakstar.com//B%20Only%20512x512.webp" alt="Staying up later than I should" class="h-8 max-w-full !h-16 -mt-5 -mb-8" />
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/posts">Posts</a></li>
+    
+    <li><a href="/page/about/">About</a></li>
+    
+    <li><a href="/tags">Tags</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+  
+  
+
+  
+  <div class="relative max-w-5xl mx-auto px-4">
+    <img src="https://notes.beakstar.com//ox-hugo/20231008-113419_screenshot.webp" class="rounded-lg shadow-sm w-full object-contain" />
+    
+    <div class="absolute top-4 right-8 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white px-2 py-0.5">
+      
+  
+    October 8, 2023
+  
+
+
+    </div>
+    
+  </div>
+  
+
+  <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4 max-w-screen-2xl">
+
+    <h1 class="text-2xl font-bold mb-2">Babashka is a great Clojure entry point</h1>
+    
+    <h5 class="text-sm flex items-center flex-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <rect x="4" y="5" width="16" height="16" rx="2" />
+        <line x1="16" y1="3" x2="16" y2="7" />
+        <line x1="8" y1="3" x2="8" y2="7" />
+        <line x1="4" y1="11" x2="20" y2="11" />
+        <rect x="8" y="15" width="2" height="2" />
+      </svg>
+      Posted on 
+  
+    October 8, 2023
+  
+
+
+      
+        &nbsp;&bull;&nbsp;
+      
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 15" />
+      </svg>
+      3&nbsp;minutes
+      &nbsp;&bull;
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+        <line x1="3" y1="6" x2="3" y2="19" />
+        <line x1="12" y1="6" x2="12" y2="19" />
+        <line x1="21" y1="6" x2="21" y2="19" />
+      </svg>
+      514&nbsp;words
+      
+    </h5>
+    
+
+    
+
+    <p>There are a lot of great ways to get started with Clojure. The community around Clojure and the love they feel for the language has driven numerous resources, books, websites, and tutorials aimed at helping newcomers get started. One easy way to take Clojure for a test-drive is <a href="https://book.babashka.org/" target="_blank" rel="noopener">Babashka</a>
+.</p>
+<h2 id="approaching-clojure-for-the-first-time">Approaching Clojure for the first time</h2>
+<p>Everyone learns differently. My first experience with Clojure was following a tutorial that used <a href="https://leiningen.org/" target="_blank" rel="noopener">Leiningen</a>
+ to produce a &ldquo;hello world!&rdquo; project. I had this up and running within seconds (not counting installing a few prerequisites). The experience was smooth, easy, and fast largely due to all the power and refinement Leiningen brings to the table.</p>
+<p>With this project, I was able to begin editing that single source <code>.clj</code> file, tweaking it and trying out a few things then relaunching the program each time to see the results (this was before I had any concept of the REPL).</p>
+<p>A lot of other things were put in place by Leiningen when the project was created. It produced a <code>project.clj</code> file which made little sense to my new eyes, along with a decent starting directory structure for the project including a test directory, a resource directory, doc directory, license file, &hellip;etc. At this point in time, I didn&rsquo;t understand exactly how these pieces all fit together. I&rsquo;m certainly familiar with this sort of structure and scaffolding from other languages and frameworks, but I still had a lot of questions. After a bit of time, I unraveled each piece of what Leiningen had done and gained understanding of why. Overall this was a good experience, but at the time I think I was hoping for something even simpler.</p>
+<h2 id="babashka-as-a-your-hello-world-experience">Babashka as a your &ldquo;hello world!&rdquo; experience</h2>
+<p>Per the website, Babashka is a scripting environment made with Clojure, compiled to native with GraalVM. It starts up super quick and can serve as a your Clojure environment. It&rsquo;s especially adept at testing things out as well as writing scripts or smaller programs. For a more in depth explanation of how it works and a deeper understanding of <em>what it is</em>, see the <a href="https://book.babashka.org/" target="_blank" rel="noopener">Babashla Book</a>
+.</p>
+<p>If you have brew installed as package manager you can install Babashka with a single command:</p>
+<p><code>brew install borkdude/brew/babashka</code></p>
+<p>Once installed you can open your favorite editor and write your first script. Babashka has a ton of libraries &ldquo;baked in&rdquo;, so to get started you won&rsquo;t need anything more than your single script file.</p>
+<figure><img src="/ox-hugo/quick-babashka.gif" width="600"/>
+</figure>
+
+<p>The demo above shows me installing Babashla, creating a small script to get the weather from an online service, and then running that script.</p>
+<p><code>get-weather.bb</code></p>
+<div class="highlight code-label-above"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-clojure" data-lang="clojure"><span style="display:flex;"><span><span style="color:#ff79c6">#</span><span style="color:#8be9fd;font-style:italic">!/usr/bin/env</span> <span style="color:#8be9fd;font-style:italic">bb</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#50fa7b">require</span> <span style="color:#ff79c6">&#39;</span>[<span style="color:#8be9fd;font-style:italic">cheshire.core</span> <span style="color:#f1fa8c">:as</span> <span style="color:#8be9fd;font-style:italic">json</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#ff79c6">def </span><span style="color:#8be9fd;font-style:italic">latitude</span> <span style="color:#f1fa8c">&#34;52.52&#34;</span>)
+</span></span><span style="display:flex;"><span>(<span style="color:#ff79c6">def </span><span style="color:#8be9fd;font-style:italic">longitude</span> <span style="color:#f1fa8c">&#34;13.41&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#ff79c6">let </span>[<span style="color:#8be9fd;font-style:italic">url</span> (<span style="color:#8be9fd;font-style:italic">str </span><span style="color:#f1fa8c">&#34;https://api.open-meteo.com/v1/forecast?latitude=&#34;</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#8be9fd;font-style:italic">latitude</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#f1fa8c">&#34;&amp;longitude=&#34;</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#8be9fd;font-style:italic">longitude</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#f1fa8c">&#34;&amp;current_weather=true&#34;</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#8be9fd;font-style:italic">data</span> (<span style="color:#50fa7b">json/parse-string</span> (<span style="color:#f1fa8c">:body</span> (<span style="color:#50fa7b">curl/get</span> <span style="color:#8be9fd;font-style:italic">url</span>)))]
+</span></span><span style="display:flex;"><span>  (<span style="color:#8be9fd;font-style:italic">doseq </span>[[<span style="color:#8be9fd;font-style:italic">key </span><span style="color:#8be9fd;font-style:italic">value</span>] (<span style="color:#8be9fd;font-style:italic">get </span><span style="color:#8be9fd;font-style:italic">data</span> <span style="color:#f1fa8c">&#34;current_weather&#34;</span>)]
+</span></span><span style="display:flex;"><span>    (<span style="color:#8be9fd;font-style:italic">println </span>(<span style="color:#8be9fd;font-style:italic">str key </span><span style="color:#f1fa8c">&#34;: &#34;</span> <span style="color:#8be9fd;font-style:italic">value</span>))))
+</span></span></code></pre></div><h2 id="summary">Summary</h2>
+<p>Clojure is a great language with an excellent community around it and you have lots of options if you want to take it for a quick spin. Running your first few lines of Clojure with Babashka is one great way to get started.</p>
+
+  </article>
+<div class="px-2 mb-2">
+  
+  <script src="https://giscus.app/client.js"
+    data-repo="mtwomey/notes"
+    data-repo-id="R_kgDOKbOpXQ"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOKbOpXc4CZ38C"
+    data-mapping="og:title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="https://notes.beakstar.com/giscus-theme.css"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+  </script>
+  
+</div>
+
+<div class="bg-blue-100 dark:bg-zinc-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2"></div>
+      <p class="opacity-60"></p>
+    </div>
+
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
+      
+    </ul>
+  </div>
+</div>
+
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2023 - Matthew Twomey · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
+</footer>
+
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-zinc-900 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
+
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
+
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
+
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
+
+    </ul>
+
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="https://notes.beakstar.com/js/scripts.min.js"></script>
+
+
+
+
+
+
+
+<script>
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
+</script>
+
+
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
+</body>
+</html>
